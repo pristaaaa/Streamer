@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Astro</title>
+<script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+</head>
+<body>
+<div id="video"></div>
+
+<script type="text/javascript">
+  jwplayer("video").setup({
+    width: "100%",
+    height: "100%",
+    autostart: true,
+    mute: false,
+    file: "https://linearjitp02-playback.astro.com.my/dash-wv/linear/2504/default.mpd",
+    drm: {
+      clearkey: {
+        key: "cd84ed136b0cc71f8ab8cd4d4f6a2e4c",
+        keyId: "03c2e0af2f8159f9f0ce9b5dbc865f10"
+      }
+    }
+  });
+</script>
+<div style="background-color: #0074d9; text-align: center; padding: 10px;">
+    <a href="https://t.me/linkscricket" target="_blank">
+      <button id="joinTelegramButton"
+        style="background-color: #fff; color: #0074d9; border: 2px solid #0074d9; padding: 5px 10px;">Join
+        Telegram</button>
+    </a>
+  </div>
+</body>
+</html>
