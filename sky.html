@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SKY CRICKET</title>
+<script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+</head>
+<body>
+<div id="video"></div>
+
+<script type="text/javascript">
+  jwplayer("video").setup({
+    width: "100%",
+    height: "100%",
+    autostart: true,
+    mute: false,
+    file: "https://linear003-gb-dash1-prd-cf.cdn.skycdp.com/016a/Content/DASH_003_sd/Live/channel(skysportscricket)/manifest_sd.mpd",
+    drm: {
+      clearkey: {
+        key: "df0ec40586d641f3d4728ab5fd62adc3",
+        keyId: "0003f2a72d21efd159d45a3a74decd84"
+      }
+    }
+  });
+</script>
+<div style="background-color: #0074d9; text-align: center; padding: 10px;">
+    <a href="https://t.me/linkscricket" target="_blank">
+      <button id="joinTelegramButton"
+        style="background-color: #fff; color: #0074d9; border: 2px solid #0074d9; padding: 5px 10px;">Join
+        Telegram</button>
+    </a>
+  </div>
+</body>
+</html>
